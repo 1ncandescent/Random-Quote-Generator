@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+}
+
+#quote-box {
+    width: 500px;
+    height: 300px;
+    border: solid 3px black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+#quote-text {
+    margin: 10px;
+}
+
+.buttons button, .button {
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: silver;
+}
+
+.buttons button {
+    width: 120px;
+}
+
+.buttons button:hover {
+    background-color: darkgrey;
+    border: solid 1px black;
+}
+
+.button {
+    width: 40px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color:black;
+}
+
+.buttons a:hover {
+    background-color: darkgrey;
+    border: solid 1px black;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black
+}
